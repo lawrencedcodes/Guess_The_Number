@@ -5,7 +5,7 @@
 import random
 my_num = random.randint(1,99)
 user_num = int(input("Enter a whole number from 1 to 99:"))
-tries = 0
+tries = 1
 
 while user_num != "my_num" :
     if user_num<my_num:
