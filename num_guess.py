@@ -20,8 +20,12 @@ while user_num != "my_num" :
         print("No, that's too high!")
         user_num = int(input("Try a different number"))
         tries +=1
-    else:
-        winsound.Beep(frequency,duration)
+    else:   
+        winsound.Beep(1567,100)
+        winsound.Beep(1760,100)
+        winsound.Beep(1975,100)
+        winsound.Beep(1760,100)
+        winsound.Beep(1567,100)
         print("##########That's it, you got it! My number was",my_num)
         print("######    That was fun. It only took you",tries,"tries.  Reset to play again.")
         break
