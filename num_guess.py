@@ -3,6 +3,10 @@
 ######################################
 
 import random
+import winsound
+frequency = 2500  # Set Frequency To 2500 Hertz
+duration = 1000  # Set Duration To 1000 ms == 1 second
+
 my_num = random.randint(1,99)
 user_num = int(input("Enter a whole number from 1 to 99:"))
 tries = 1
@@ -17,7 +21,8 @@ while user_num != "my_num" :
         user_num = int(input("Try a different number"))
         tries +=1
     else:
-        print("That's it, you got it! My number was",my_num)
-        print("That was fun. It only took you",tries,"tries.  Reset to play again.")
+        winsound.Beep(frequency,duration)
+        print("##########That's it, you got it! My number was",my_num)
+        print("######    That was fun. It only took you",tries,"tries.  Reset to play again.")
         break
 
