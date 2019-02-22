@@ -30,5 +30,7 @@ while user_num != "my_num" :
             print("###################            #################")
         print("######    That's it, you got it! My number was",my_num)
         print("######    That was fun. It only took you",tries,"tries.  Reset to play again.")
+        for i in range(2):
+            print("###################            #################")
         break
 
