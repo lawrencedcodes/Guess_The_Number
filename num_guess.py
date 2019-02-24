@@ -1,6 +1,6 @@
-######Basic Number Guessing Game######
-#     1st and 2nd week knowledge     #
-######################################
+########Basic Number Guessing Game#######
+#       1st and 2nd week knowledge      #
+#########################################
 
 import random
 import winsound
