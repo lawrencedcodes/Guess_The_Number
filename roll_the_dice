@@ -1,0 +1,14 @@
+#Roll the Dice Game#
+
+import random
+import time
+
+roll_dice = "yes"
+while roll_dice == "yes" or roll_dice == "y":
+    print("rolling...")
+    print("You rolled a ")
+    time.sleep(1)
+    print(random.randint(1,6),"and a",(random.randint(1,6))) 
+    roll_dice = input("\n Would you like to play again?")
+else:
+    print("Hey thanks for playing. See you next time!")
